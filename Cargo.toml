@@ -1,0 +1,10 @@
+[package]
+name = "Salvo"
+version = "0.1.0"
+authors = ["john"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = { version = "0.8.5", features = ["small_rng"] }
